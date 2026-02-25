@@ -222,10 +222,9 @@
     },
     "gtable": {
       "Package": "gtable",
-      "Version": "0.3.3",
+      "Version": "0.3.6",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b44addadb528a0d227794121c00572a0"
+      "Repository": "CRAN"
     },
     "gtools": {
       "Package": "gtools",
@@ -536,10 +535,9 @@
     },
     "scales": {
       "Package": "scales",
-      "Version": "1.2.1",
+      "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "906cb23d2f1c5680b8ce439b44c6fa63"
+      "Repository": "CRAN"
     },
     "selectr": {
       "Package": "selectr",
