@@ -29,7 +29,7 @@ RUN R -e "renv::init()"
 
 # RUN R -e 'options(repos = c(CRAN = "https://p3m.dev/cran/__linux__/jammy/latest"))'
 
-# RUN R -e 'renv::install("MASS@7.3-65")'
+RUN R -e 'renv::install("curl")'
 
 # ... and restore the R environment
 RUN R -e 'renv::restore()'
