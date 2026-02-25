@@ -100,10 +100,9 @@
     },
     "bit": {
       "Package": "bit",
-      "Version": "4.0.5",
+      "Version": "4.6.0",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "d242abec29412ce988848d0294b208fd"
+      "Repository": "cran.rstudio.com"
     },
     "bit64": {
       "Package": "bit64",
