@@ -29,6 +29,8 @@ RUN R -e "renv::init()"
 
 RUN R -e 'options(repos = c(CRAN = "https://p3m.dev/cran/__linux__/jammy/latest"))'
 
+RUN R -e 'renv::install("MASS@latest_version")'
+
 # ... and restore the R environment
 RUN R -e 'renv::restore()'
 
