@@ -155,10 +155,9 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.33",
+      "Version": "0.6.39",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b18a9cf3c003977b0cc49d5e76ebe48d"
+      "Repository": "cran.rstudio.com"
     },
     "dplyr": {
       "Package": "dplyr",
