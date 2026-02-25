@@ -5,7 +5,15 @@ FROM ghcr.io/ministryofjustice/analytical-platform-airflow-r-base:1.11.0@sha256:
 ARG MOJAP_IMAGE_VERSION="default"
 ENV MOJAP_IMAGE_VERSION=${MOJAP_IMAGE_VERSION}
 
-USER root 
+USER root
+
+
+RUN <<EOF
+apt-get update # Refresh APT package lists
+apt-get install --yes libcurl4-openssl-dev # Install packages
+apt-get clean --yes # Clear APT cache
+rm --force --recursive /var/lib/apt/lists/* # Clear APT package lists
+EOF
 
 
 USER ${CONTAINER_UID} 
