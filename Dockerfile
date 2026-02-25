@@ -27,6 +27,8 @@ RUN R -e "install.packages('renv')"
 # Inititalise renv...
 RUN R -e "renv::init()"
 
+RUN R -e 'options(repos = c(CRAN = "https://p3m.dev/cran/__linux__/jammy/latest"))'
+
 # ... and restore the R environment
 RUN R -e 'renv::restore()'
 
