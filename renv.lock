@@ -100,10 +100,9 @@
     },
     "bit": {
       "Package": "bit",
-      "Version": "4.0.5",
+      "Version": "4.6.0",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "d242abec29412ce988848d0294b208fd"
+      "Repository": "cran.rstudio.com"
     },
     "bit64": {
       "Package": "bit64",
@@ -155,10 +154,9 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.33",
+      "Version": "0.6.39",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b18a9cf3c003977b0cc49d5e76ebe48d"
+      "Repository": "cran.rstudio.com"
     },
     "dplyr": {
       "Package": "dplyr",
@@ -224,10 +222,9 @@
     },
     "gtable": {
       "Package": "gtable",
-      "Version": "0.3.3",
+      "Version": "0.3.6",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b44addadb528a0d227794121c00572a0"
+      "Repository": "CRAN"
     },
     "gtools": {
       "Package": "gtools",
@@ -538,10 +535,9 @@
     },
     "scales": {
       "Package": "scales",
-      "Version": "1.2.1",
+      "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "906cb23d2f1c5680b8ce439b44c6fa63"
+      "Repository": "CRAN"
     },
     "selectr": {
       "Package": "selectr",
