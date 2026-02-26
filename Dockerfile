@@ -1,4 +1,4 @@
-FROM ghcr.io/ministryofjustice/analytical-platform-airflow-r-base:1.11.0@sha256:dc462ef8c58bdb220f77bec1a41982ba62086bed28b34a2debeea9318c85d746
+FROM ghcr.io/ministryofjustice/analytical-platform-airflow-r-base:1.17.2@sha256:7d0820ee9f2daf7afe0773f0af3ede0e3cd3c2c557fa743ebd275fdf1ee00d44
 
 
 
