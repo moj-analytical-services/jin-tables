@@ -10,12 +10,10 @@ USER root
 
 RUN <<EOF
 apt-get update # Refresh APT package lists
-apt-get install --yes libcurl4-openssl-dev libssl-dev libxml2-dev python3-wheel # Install packages
+apt-get install --yes libcurl4-openssl-dev libssl-dev libxml2-dev # Install packages
 apt-get clean --yes # Clear APT cache
 rm --force --recursive /var/lib/apt/lists/* # Clear APT package lists
 EOF
-
-RUN python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel
 
 USER ${CONTAINER_UID} 
 
