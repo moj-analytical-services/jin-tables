@@ -15,6 +15,7 @@ apt-get clean --yes # Clear APT cache
 rm --force --recursive /var/lib/apt/lists/* # Clear APT package lists
 EOF
 
+RUN python3 -m pip install --no-cache-dir --upgrade pip setuptools wheel
 
 USER ${CONTAINER_UID} 
 
